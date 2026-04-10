@@ -1,5 +1,26 @@
-body { font-family: sans-serif; padding: 20px; background-color: #f4f4f4; }
-section { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-button { padding: 10px; cursor: pointer; background: #007bff; color: white; border: none; border-radius: 4px; margin: 5px; }
-input { padding: 8px; margin: 5px; border: 1px solid #ccc; }
-.room-card { border: 1px solid #ddd; padding: 15px; margin-top: 10px; border-radius: 4px; }
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap');
+
+:root {
+  font-family: 'Poppins', sans-serif;
+  background-color: #F4F7F6;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, .font-elegant {
+  font-family: 'Playfair Display', serif !important;
+}
+
+/* Transiciones suaves para botones */
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+  filter: brightness(1.1);
+}
